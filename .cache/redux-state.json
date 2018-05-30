@@ -1,0 +1,1118 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d4186a57065a7c7d3e8af1caff798f9c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5143cded665f6a2fbbb16ccdd81f7d70",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4e9ee1abf5c5ccda0e2f907d2468cc40",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3c02980bf3cfd7d7f339f2b57d30ff48",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bf221929edf25a71a5902b01d3a3b46d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9617464a48922395757ed44cc8a3c1d1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "deeda93b4903203dfbbee1f4a3372b4d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.36",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/linzhou/Documents/project/gatsby-starter-muses/post",
+        "name": "markdown-pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.36",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "465d6933d61849cff9651f66fc9fb919",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-css-modules": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby-plugin-react-css-modules",
+      "id": "Plugin gatsby-plugin-react-css-modules",
+      "name": "gatsby-plugin-react-css-modules",
+      "version": "1.0.15",
+      "pluginOptions": {
+        "plugins": [],
+        "filetypes": {
+          ".scss": {
+            "syntax": "postcss-scss"
+          }
+        },
+        "exclude": "/global/"
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby-plugin-react-css-modules",
+      "packageJson": {
+        "name": "gatsby-plugin-react-css-modules",
+        "description": "Gatsby plugin that transforms styleName to className using compile time CSS module resolution",
+        "version": "1.0.15",
+        "main": "index.js",
+        "keywords": [
+          "babel",
+          "babel-plugin",
+          "className",
+          "css modules",
+          "gatsby",
+          "gatsby-plugin",
+          "react",
+          "styleName"
+        ],
+        "author": "Ming Aldrich-Gan <mingaldrichgan@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-react-css-modules",
+            "version": "^3.2.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a43b56e619de0fe4c032533635dc1818",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.41",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.41",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b814517f48304c5dbfb67f2d3a686f31",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "e9e3584cfa8acb438ffc96b46c3692f2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/linzhou/Documents/project/gatsby-starter-muses",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "amfe-flexible",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.247"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-react-css-modules",
+            "version": "^1.0.15"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.26"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.35"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.40"
+          },
+          {
+            "name": "postcss-scss",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-overdrive",
+            "version": "0.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.12.0"
+          },
+          {
+            "name": "sass-resources-loader",
+            "version": "^1.3.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e4220d138428f550320190422def4ca1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Starter Muses"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-05-30T15:43:32.998Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "db820172764934f6598630c1f5f37c41",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post absPath of file": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "df4e92ef3c1c1db74d29a9cc3335ef68",
+        "type": "Directory",
+        "description": "Directory \"post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post",
+      "relativePath": "",
+      "extension": "",
+      "size": 170,
+      "prettySize": "170 B",
+      "modifiedTime": "2018-05-02T05:02:18.000Z",
+      "accessTime": "2018-05-30T15:43:35.000Z",
+      "changeTime": "2018-05-30T05:07:40.000Z",
+      "birthTime": "2018-05-01T16:32:54.000Z",
+      "root": "/",
+      "dir": "/Users/linzhou/Documents/project/gatsby-starter-muses",
+      "base": "post",
+      "ext": "",
+      "name": "post",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26877066,
+      "blocks": 0,
+      "atime": "2018-05-30T15:43:35.000Z",
+      "mtime": "2018-05-02T05:02:18.000Z",
+      "ctime": "2018-05-30T05:07:40.000Z",
+      "birthtime": "2018-05-01T16:32:54.000Z"
+    },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file",
+      "children": [
+        "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b9e5a67504db5b4d15a364b6a39866ab",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"post/code_review1.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md",
+      "relativePath": "code_review1.md",
+      "extension": "md",
+      "size": 1513,
+      "prettySize": "1.51 kB",
+      "modifiedTime": "2018-05-10T11:05:18.000Z",
+      "accessTime": "2018-05-30T15:41:34.000Z",
+      "changeTime": "2018-05-30T05:07:40.000Z",
+      "birthTime": "2018-05-02T05:02:18.000Z",
+      "root": "/",
+      "dir": "/Users/linzhou/Documents/project/gatsby-starter-muses/post",
+      "base": "code_review1.md",
+      "ext": ".md",
+      "name": "code_review1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26877072,
+      "blocks": 8,
+      "atime": "2018-05-30T15:41:34.000Z",
+      "mtime": "2018-05-10T11:05:18.000Z",
+      "ctime": "2018-05-30T05:07:40.000Z",
+      "birthtime": "2018-05-02T05:02:18.000Z"
+    },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file",
+      "children": [
+        "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7c85f033db5c2a9fb196f9d9f4b20b2a",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"post/code_review0.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md",
+      "relativePath": "code_review0.md",
+      "extension": "md",
+      "size": 1513,
+      "prettySize": "1.51 kB",
+      "modifiedTime": "2018-05-10T11:05:15.000Z",
+      "accessTime": "2018-05-30T15:41:34.000Z",
+      "changeTime": "2018-05-30T05:07:40.000Z",
+      "birthTime": "2018-05-02T05:02:17.000Z",
+      "root": "/",
+      "dir": "/Users/linzhou/Documents/project/gatsby-starter-muses/post",
+      "base": "code_review0.md",
+      "ext": ".md",
+      "name": "code_review0",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26877071,
+      "blocks": 8,
+      "atime": "2018-05-30T15:41:34.000Z",
+      "mtime": "2018-05-10T11:05:15.000Z",
+      "ctime": "2018-05-30T05:07:40.000Z",
+      "birthtime": "2018-05-02T05:02:17.000Z"
+    },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file",
+      "children": [
+        "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c636e6548857aecd42c59597661edf51",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"post/code_review.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md",
+      "relativePath": "code_review.md",
+      "extension": "md",
+      "size": 1513,
+      "prettySize": "1.51 kB",
+      "modifiedTime": "2018-05-10T11:05:20.000Z",
+      "accessTime": "2018-05-30T15:41:34.000Z",
+      "changeTime": "2018-05-30T05:07:40.000Z",
+      "birthTime": "2018-05-01T16:34:09.000Z",
+      "root": "/",
+      "dir": "/Users/linzhou/Documents/project/gatsby-starter-muses/post",
+      "base": "code_review.md",
+      "ext": ".md",
+      "name": "code_review",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26877070,
+      "blocks": 8,
+      "atime": "2018-05-30T15:41:34.000Z",
+      "mtime": "2018-05-10T11:05:20.000Z",
+      "ctime": "2018-05-30T05:07:40.000Z",
+      "birthtime": "2018-05-01T16:34:09.000Z"
+    },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/blog/3\"\ndate: \"2018-05-02 11:20\"\ntitle: \"3333\"\n---\n### code review 的要求\n\nLv1. 验证代码是否符合当前需求的正确和有效的解决方案\n\nLv2 确保你的代码是可维护的\n\nLv3 增加对代码库的共享知识\n\nLv4 通过定期反馈提高团队的技能\n\nLv5 不应该成为开发的一个沉重开销\n\n\n\n### code review 原则\n\n##### 发布pr之前应该明确\n1. 邀请合适Reviewers\n2. 有一个主要审核人，做出决定\n3. 明确每个Reviewer的审核范围，和主要职责\n\n##### 提出pr需要注意的\n1. 这个pr解决了什么问题，用什么解决，为什么用。尽可能丰富的上下文关系，能够帮助别人更快的审核你的代码\n2. pr越小越好，小的好处是更准确的描述，更少的不必要沟通，以及更快的通过审核，迭代。注意区分代码逻辑和代码风格的修改最好分2个分支提\n3. 提高代码的可读性\n4. 点击确认发布按钮前，认真阅读diff，确认这次pr修改了哪些内容。尝试用第三人来目光来审视自己的diff。如果太混乱难以阅读，首先应该修改代码风格以及抽象和重构。然后再是考虑加上部分注释和上下文\n\n##### 审核过程中\n1. 避免重大更改。如果需要重大更改尽早的提醒正在审核的同事。\n2. 回应每一条评论。明确反馈，以及是否做出修正，及时沟通\n3. 每次cr是一次讨论，不是一个要求。面对cr评论，欢迎提出不同意见，但要解释清楚为什么\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "9963194b59fe9df6ac894bed25eb8454",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "3333",
+        "path": "/blog/3",
+        "date": "2018-05-02 11:20",
+        "_PARENT": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file",
+        "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md"
+    },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/blog/2\"\ndate: \"2018-05-01 11:20\"\ntitle: \"2222\"\n---\n### code review 的要求\n\nLv1. 验证代码是否符合当前需求的正确和有效的解决方案\n\nLv2 确保你的代码是可维护的\n\nLv3 增加对代码库的共享知识\n\nLv4 通过定期反馈提高团队的技能\n\nLv5 不应该成为开发的一个沉重开销\n\n\n\n### code review 原则\n\n##### 发布pr之前应该明确\n1. 邀请合适Reviewers\n2. 有一个主要审核人，做出决定\n3. 明确每个Reviewer的审核范围，和主要职责\n\n##### 提出pr需要注意的\n1. 这个pr解决了什么问题，用什么解决，为什么用。尽可能丰富的上下文关系，能够帮助别人更快的审核你的代码\n2. pr越小越好，小的好处是更准确的描述，更少的不必要沟通，以及更快的通过审核，迭代。注意区分代码逻辑和代码风格的修改最好分2个分支提\n3. 提高代码的可读性\n4. 点击确认发布按钮前，认真阅读diff，确认这次pr修改了哪些内容。尝试用第三人来目光来审视自己的diff。如果太混乱难以阅读，首先应该修改代码风格以及抽象和重构。然后再是考虑加上部分注释和上下文\n\n##### 审核过程中\n1. 避免重大更改。如果需要重大更改尽早的提醒正在审核的同事。\n2. 回应每一条评论。明确反馈，以及是否做出修正，及时沟通\n3. 每次cr是一次讨论，不是一个要求。面对cr评论，欢迎提出不同意见，但要解释清楚为什么\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1ff4817192ad24a1f4f1820c9378904a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "2222",
+        "path": "/blog/2",
+        "date": "2018-05-01 11:20",
+        "_PARENT": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file",
+        "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md"
+    },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/blog/1\"\ndate: \"2018-04-23 11:20\"\ntitle: \"1111\"\n---\n### code review 的要求\n\nLv1. 验证代码是否符合当前需求的正确和有效的解决方案\n\nLv2 确保你的代码是可维护的\n\nLv3 增加对代码库的共享知识\n\nLv4 通过定期反馈提高团队的技能\n\nLv5 不应该成为开发的一个沉重开销\n\n\n\n### code review 原则\n\n##### 发布pr之前应该明确\n1. 邀请合适Reviewers\n2. 有一个主要审核人，做出决定\n3. 明确每个Reviewer的审核范围，和主要职责\n\n##### 提出pr需要注意的\n1. 这个pr解决了什么问题，用什么解决，为什么用。尽可能丰富的上下文关系，能够帮助别人更快的审核你的代码\n2. pr越小越好，小的好处是更准确的描述，更少的不必要沟通，以及更快的通过审核，迭代。注意区分代码逻辑和代码风格的修改最好分2个分支提\n3. 提高代码的可读性\n4. 点击确认发布按钮前，认真阅读diff，确认这次pr修改了哪些内容。尝试用第三人来目光来审视自己的diff。如果太混乱难以阅读，首先应该修改代码风格以及抽象和重构。然后再是考虑加上部分注释和上下文\n\n##### 审核过程中\n1. 避免重大更改。如果需要重大更改尽早的提醒正在审核的同事。\n2. 回应每一条评论。明确反馈，以及是否做出修正，及时沟通\n3. 每次cr是一次讨论，不是一个要求。面对cr评论，欢迎提出不同意见，但要解释清楚为什么\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1e621c113292c0d202212a88adbf5c71",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "1111",
+        "path": "/blog/1",
+        "date": "2018-04-23 11:20",
+        "_PARENT": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file",
+        "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md"
+    },
+    "SitePage /blog/3": {
+      "layout": "index",
+      "jsonName": "blog-3.json",
+      "internalComponentName": "ComponentBlog3",
+      "path": "/blog/3",
+      "component": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/templates/BlogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/templates/BlogPost.js",
+      "id": "SitePage /blog/3",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3036ecc6037dd0c47e13b605c2aea301",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/2": {
+      "layout": "index",
+      "jsonName": "blog-2.json",
+      "internalComponentName": "ComponentBlog2",
+      "path": "/blog/2",
+      "component": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/templates/BlogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/templates/BlogPost.js",
+      "id": "SitePage /blog/2",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7f6531479fb30590e34559dcd0297ae2",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/1": {
+      "layout": "index",
+      "jsonName": "blog-1.json",
+      "internalComponentName": "ComponentBlog1",
+      "path": "/blog/1",
+      "component": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/templates/BlogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/templates/BlogPost.js",
+      "id": "SitePage /blog/1",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d8af5b26c9b420d1e45343fad2cd9831",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a9e0b600da0cb3f02a51af7982243d31",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f6dea5617b135a1e02dbb5a72070748e",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/linzhou/Documents/project/gatsby-starter-muses/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "38fda4cb6c57d60f5778309329866ffe",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "cb9ba826c005c315c6372c2176cc6702"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file >>> MarkdownRemark": [
+        "/blog/1"
+      ],
+      "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file >>> MarkdownRemark": [
+        "/blog/2"
+      ],
+      "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file >>> MarkdownRemark": [
+        "/blog/3"
+      ],
+      "Site": [
+        "LAYOUT___index"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "gatsby": "^1.9.247",
+    "gatsby-1-config-extract-plugin": "^1.0.3",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-css-modules": "^1.0.15",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-source-filesystem": "^1.5.35",
+    "gatsby-transformer-remark": "^1.7.40",
+    "postcss-scss": "^1.0.5",
+    "react-helmet": "^5.2.0",
+    "react-overdrive": "0.0.9"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop -o",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "prettier": "^1.12.0",
+    "sass-resources-loader": "^1.3.3"
+  }
+}

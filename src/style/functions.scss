@@ -1,0 +1,7 @@
+$design-width: 1600;
+$rate: $design-width / 10;
+
+
+@function px2rem($px) {
+  @return $pt / $pt2remRate * 1rem;
+}
