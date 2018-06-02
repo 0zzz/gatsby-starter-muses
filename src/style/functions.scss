@@ -3,5 +3,9 @@ $rate: $design-width / 10;
 
 
 @function px2rem($px) {
-  @return $pt / $pt2remRate * 1rem;
+  @return $px / $rate * 1rem;
+}
+
+@function fontSize($fx) {
+  @return $fx * 1px;
 }

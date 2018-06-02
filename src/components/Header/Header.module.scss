@@ -1,7 +1,17 @@
-
+$header-height: px2rem(80);
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: $color-button-primary;
+  width: 100%;
+  height: $header-height;
+  background-color: $color-bg-white;
+
+  .nav {
+    width: $width-main-layout;
+    margin: 0 auto;
+    height: $header-height;
+    line-height: $header-height;
+
+    .item {
+      margin-right: px2rem(40);
+    }
+  }
 }

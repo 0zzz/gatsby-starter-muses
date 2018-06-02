@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
+
+import { HEADER_ROUTE } from '../../constants/route';
 import './Header.module.scss';
 
 const propTypes = {};
@@ -15,7 +17,17 @@ class Header extends Component {
   render() {
     return (
       <div styleName="header" >
-        11111
+        <div styleName="nav">
+          {HEADER_ROUTE.map(route => (
+            <Link
+              to={route.path}
+              styleName="item"
+              >
+                {route.title}
+              </Link>
+          ))}
+        </div>
+
       </div>
     );
   }
