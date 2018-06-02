@@ -11,12 +11,10 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
 
   switch (stage) {
     case "develop":
-      // config.removeLoader('sassModules');
-      // config.removeLoader('sass');
       config.loader(`sass`, {
         test: sassFiles,
         exclude: sassModulesFiles,
-        loaders: [`style`, `css`, sassLoader],
+        loaders: [`style`, `css`, sassLoader, sassResourcesLoader],
       });
 
       config.loader(`sassModules`, {
@@ -25,8 +23,6 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
       });
       break;
     case "build-css":
-      // config.removeLoader('sassModules');
-      // config.removeLoader('sass');
       config.loader(`sass`, {
         test: sassFiles,
         exclude: sassModulesFiles,
@@ -53,12 +49,10 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
 
 
     case "build-javascript":
-      // config.removeLoader('sassModules');
-      // config.removeLoader('sass');
       config.loader(`sass`, {
         test: sassFiles,
         exclude: sassModulesFiles,
-        loaders: [ `css`, sassLoader],
+        loaders: [ `css`, sassLoader, sassResourcesLoader],
       });
 
       config.loader(`sassModules`, {
