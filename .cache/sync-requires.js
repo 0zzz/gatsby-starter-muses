@@ -8,6 +8,7 @@ exports.layouts = {
 
 exports.components = {
   "component---src-templates-blog-post-js": preferDefault(require("/Users/linzhou/Documents/project/gatsby-starter-muses/src/templates/BlogPost.js")),
+  "component---cache-dev-404-page-js": preferDefault(require("/Users/linzhou/Documents/project/gatsby-starter-muses/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/linzhou/Documents/project/gatsby-starter-muses/src/pages/404.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/linzhou/Documents/project/gatsby-starter-muses/src/pages/index.js"))
 }
@@ -17,6 +18,7 @@ exports.json = {
   "blog-3.json": require("/Users/linzhou/Documents/project/gatsby-starter-muses/.cache/json/blog-3.json"),
   "blog-2.json": require("/Users/linzhou/Documents/project/gatsby-starter-muses/.cache/json/blog-2.json"),
   "blog-1.json": require("/Users/linzhou/Documents/project/gatsby-starter-muses/.cache/json/blog-1.json"),
+  "dev-404-page.json": require("/Users/linzhou/Documents/project/gatsby-starter-muses/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/linzhou/Documents/project/gatsby-starter-muses/.cache/json/404.json"),
   "index.json": require("/Users/linzhou/Documents/project/gatsby-starter-muses/.cache/json/index.json"),
   "404-html.json": require("/Users/linzhou/Documents/project/gatsby-starter-muses/.cache/json/404-html.json")
