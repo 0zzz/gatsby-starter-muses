@@ -1,16 +1,18 @@
 $header-height: px2rem(80);
+
 .header {
+  position: absolute;
   width: 100%;
   height: $header-height;
-  background-color: $color-bg-white;
 
   .nav {
-    width: $width-main-layout;
-    margin: 0 auto;
+    @include main-layout;
+
     height: $header-height;
     line-height: $header-height;
 
     .item {
+      @include text-with-mark;
       margin-right: px2rem(40);
     }
   }

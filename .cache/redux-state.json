@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b3bee069318909854b9a4cf658c205d4",
+        "contentDigest": "9aeea26800e2adb88fd589f4cbff1d8e",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -632,7 +632,7 @@
       "resolve": "/Users/linzhou/Documents/project/gatsby-starter-muses",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "34a6f4417d6a3473feb819a2567eaf14",
+      "version": "4011a940b7b2d66623ea7e77a8f2b139",
       "pluginOptions": {
         "plugins": []
       },
@@ -656,6 +656,10 @@
           {
             "name": "amfe-flexible",
             "version": "^2.2.1"
+          },
+          {
+            "name": "classnames",
+            "version": "^2.2.5"
           },
           {
             "name": "gatsby",
@@ -708,6 +712,10 @@
             "version": "^1.12.0"
           },
           {
+            "name": "sass-loader",
+            "version": "^7.0.2"
+          },
+          {
             "name": "sass-resources-loader",
             "version": "^1.3.3"
           }
@@ -719,7 +727,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f07cb558674cfc4ccb0ef657416106b7",
+        "contentDigest": "99696ccdd91a69ff211890ee2d2eb351",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -732,12 +740,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-02T04:12:45.371Z",
+      "buildTime": "2018-06-05T11:11:07.980Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "02287b1a3fa289139874914c6bc8b639",
+        "contentDigest": "adf68e6c6f4196e2d604e7dd6db502c6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -747,7 +755,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ec821d56c54a36a97e31bdfadd6d23bc",
+        "contentDigest": "00eb463573b47e382e89f4c65addb34b",
         "type": "Directory",
         "description": "Directory \"post\"",
         "owner": "gatsby-source-filesystem"
@@ -759,7 +767,7 @@
       "size": 170,
       "prettySize": "170 B",
       "modifiedTime": "2018-05-02T05:02:18.000Z",
-      "accessTime": "2018-06-02T04:12:48.000Z",
+      "accessTime": "2018-06-05T11:11:11.000Z",
       "changeTime": "2018-05-30T05:07:40.000Z",
       "birthTime": "2018-05-01T16:32:54.000Z",
       "root": "/",
@@ -777,10 +785,53 @@
       "blksize": 4096,
       "ino": 26877066,
       "blocks": 0,
-      "atime": "2018-06-02T04:12:48.000Z",
+      "atime": "2018-06-05T11:11:11.000Z",
       "mtime": "2018-05-02T05:02:18.000Z",
       "ctime": "2018-05-30T05:07:40.000Z",
       "birthtime": "2018-05-01T16:32:54.000Z"
+    },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file",
+      "children": [
+        "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7c85f033db5c2a9fb196f9d9f4b20b2a",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"post/code_review0.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md",
+      "relativePath": "code_review0.md",
+      "extension": "md",
+      "size": 1513,
+      "prettySize": "1.51 kB",
+      "modifiedTime": "2018-05-10T11:05:15.000Z",
+      "accessTime": "2018-06-03T09:47:01.000Z",
+      "changeTime": "2018-05-30T05:07:40.000Z",
+      "birthTime": "2018-05-02T05:02:17.000Z",
+      "root": "/",
+      "dir": "/Users/linzhou/Documents/project/gatsby-starter-muses/post",
+      "base": "code_review0.md",
+      "ext": ".md",
+      "name": "code_review0",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 26877071,
+      "blocks": 8,
+      "atime": "2018-06-03T09:47:01.000Z",
+      "mtime": "2018-05-10T11:05:15.000Z",
+      "ctime": "2018-05-30T05:07:40.000Z",
+      "birthtime": "2018-05-02T05:02:17.000Z"
     },
     "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file": {
       "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file",
@@ -802,7 +853,7 @@
       "size": 1513,
       "prettySize": "1.51 kB",
       "modifiedTime": "2018-05-10T11:05:20.000Z",
-      "accessTime": "2018-06-02T04:07:52.000Z",
+      "accessTime": "2018-06-03T09:47:01.000Z",
       "changeTime": "2018-05-30T05:07:40.000Z",
       "birthTime": "2018-05-01T16:34:09.000Z",
       "root": "/",
@@ -820,7 +871,7 @@
       "blksize": 4096,
       "ino": 26877070,
       "blocks": 8,
-      "atime": "2018-06-02T04:07:52.000Z",
+      "atime": "2018-06-03T09:47:01.000Z",
       "mtime": "2018-05-10T11:05:20.000Z",
       "ctime": "2018-05-30T05:07:40.000Z",
       "birthtime": "2018-05-01T16:34:09.000Z"
@@ -845,7 +896,7 @@
       "size": 1513,
       "prettySize": "1.51 kB",
       "modifiedTime": "2018-05-10T11:05:18.000Z",
-      "accessTime": "2018-06-02T04:07:52.000Z",
+      "accessTime": "2018-06-03T09:47:01.000Z",
       "changeTime": "2018-05-30T05:07:40.000Z",
       "birthTime": "2018-05-02T05:02:18.000Z",
       "root": "/",
@@ -863,93 +914,10 @@
       "blksize": 4096,
       "ino": 26877072,
       "blocks": 8,
-      "atime": "2018-06-02T04:07:52.000Z",
+      "atime": "2018-06-03T09:47:01.000Z",
       "mtime": "2018-05-10T11:05:18.000Z",
       "ctime": "2018-05-30T05:07:40.000Z",
       "birthtime": "2018-05-02T05:02:18.000Z"
-    },
-    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file": {
-      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file",
-      "children": [
-        "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "7c85f033db5c2a9fb196f9d9f4b20b2a",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"post/code_review0.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "markdown-pages",
-      "absolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md",
-      "relativePath": "code_review0.md",
-      "extension": "md",
-      "size": 1513,
-      "prettySize": "1.51 kB",
-      "modifiedTime": "2018-05-10T11:05:15.000Z",
-      "accessTime": "2018-06-02T04:07:52.000Z",
-      "changeTime": "2018-05-30T05:07:40.000Z",
-      "birthTime": "2018-05-02T05:02:17.000Z",
-      "root": "/",
-      "dir": "/Users/linzhou/Documents/project/gatsby-starter-muses/post",
-      "base": "code_review0.md",
-      "ext": ".md",
-      "name": "code_review0",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 26877071,
-      "blocks": 8,
-      "atime": "2018-06-02T04:07:52.000Z",
-      "mtime": "2018-05-10T11:05:15.000Z",
-      "ctime": "2018-05-30T05:07:40.000Z",
-      "birthtime": "2018-05-02T05:02:17.000Z"
-    },
-    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file",
-      "internal": {
-        "content": "---\npath: \"/blog/1\"\ndate: \"2018-04-23 11:20\"\ntitle: \"1111\"\n---\n### code review 的要求\n\nLv1. 验证代码是否符合当前需求的正确和有效的解决方案\n\nLv2 确保你的代码是可维护的\n\nLv3 增加对代码库的共享知识\n\nLv4 通过定期反馈提高团队的技能\n\nLv5 不应该成为开发的一个沉重开销\n\n\n\n### code review 原则\n\n##### 发布pr之前应该明确\n1. 邀请合适Reviewers\n2. 有一个主要审核人，做出决定\n3. 明确每个Reviewer的审核范围，和主要职责\n\n##### 提出pr需要注意的\n1. 这个pr解决了什么问题，用什么解决，为什么用。尽可能丰富的上下文关系，能够帮助别人更快的审核你的代码\n2. pr越小越好，小的好处是更准确的描述，更少的不必要沟通，以及更快的通过审核，迭代。注意区分代码逻辑和代码风格的修改最好分2个分支提\n3. 提高代码的可读性\n4. 点击确认发布按钮前，认真阅读diff，确认这次pr修改了哪些内容。尝试用第三人来目光来审视自己的diff。如果太混乱难以阅读，首先应该修改代码风格以及抽象和重构。然后再是考虑加上部分注释和上下文\n\n##### 审核过程中\n1. 避免重大更改。如果需要重大更改尽早的提醒正在审核的同事。\n2. 回应每一条评论。明确反馈，以及是否做出修正，及时沟通\n3. 每次cr是一次讨论，不是一个要求。面对cr评论，欢迎提出不同意见，但要解释清楚为什么\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "1e621c113292c0d202212a88adbf5c71",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "1111",
-        "path": "/blog/1",
-        "date": "2018-04-23 11:20",
-        "_PARENT": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file",
-        "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md"
-    },
-    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file",
-      "internal": {
-        "content": "---\npath: \"/blog/3\"\ndate: \"2018-05-02 11:20\"\ntitle: \"3333\"\n---\n### code review 的要求\n\nLv1. 验证代码是否符合当前需求的正确和有效的解决方案\n\nLv2 确保你的代码是可维护的\n\nLv3 增加对代码库的共享知识\n\nLv4 通过定期反馈提高团队的技能\n\nLv5 不应该成为开发的一个沉重开销\n\n\n\n### code review 原则\n\n##### 发布pr之前应该明确\n1. 邀请合适Reviewers\n2. 有一个主要审核人，做出决定\n3. 明确每个Reviewer的审核范围，和主要职责\n\n##### 提出pr需要注意的\n1. 这个pr解决了什么问题，用什么解决，为什么用。尽可能丰富的上下文关系，能够帮助别人更快的审核你的代码\n2. pr越小越好，小的好处是更准确的描述，更少的不必要沟通，以及更快的通过审核，迭代。注意区分代码逻辑和代码风格的修改最好分2个分支提\n3. 提高代码的可读性\n4. 点击确认发布按钮前，认真阅读diff，确认这次pr修改了哪些内容。尝试用第三人来目光来审视自己的diff。如果太混乱难以阅读，首先应该修改代码风格以及抽象和重构。然后再是考虑加上部分注释和上下文\n\n##### 审核过程中\n1. 避免重大更改。如果需要重大更改尽早的提醒正在审核的同事。\n2. 回应每一条评论。明确反馈，以及是否做出修正，及时沟通\n3. 每次cr是一次讨论，不是一个要求。面对cr评论，欢迎提出不同意见，但要解释清楚为什么\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "9963194b59fe9df6ac894bed25eb8454",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "3333",
-        "path": "/blog/3",
-        "date": "2018-05-02 11:20",
-        "_PARENT": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file",
-        "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md"
     },
     "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md absPath of file >>> MarkdownRemark",
@@ -971,6 +939,46 @@
       "excerpt": "",
       "fileAbsolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review0.md"
     },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/blog/3\"\ndate: \"2018-05-02 11:20\"\ntitle: \"3333\"\n---\n### code review 的要求\n\nLv1. 验证代码是否符合当前需求的正确和有效的解决方案\n\nLv2 确保你的代码是可维护的\n\nLv3 增加对代码库的共享知识\n\nLv4 通过定期反馈提高团队的技能\n\nLv5 不应该成为开发的一个沉重开销\n\n\n\n### code review 原则\n\n##### 发布pr之前应该明确\n1. 邀请合适Reviewers\n2. 有一个主要审核人，做出决定\n3. 明确每个Reviewer的审核范围，和主要职责\n\n##### 提出pr需要注意的\n1. 这个pr解决了什么问题，用什么解决，为什么用。尽可能丰富的上下文关系，能够帮助别人更快的审核你的代码\n2. pr越小越好，小的好处是更准确的描述，更少的不必要沟通，以及更快的通过审核，迭代。注意区分代码逻辑和代码风格的修改最好分2个分支提\n3. 提高代码的可读性\n4. 点击确认发布按钮前，认真阅读diff，确认这次pr修改了哪些内容。尝试用第三人来目光来审视自己的diff。如果太混乱难以阅读，首先应该修改代码风格以及抽象和重构。然后再是考虑加上部分注释和上下文\n\n##### 审核过程中\n1. 避免重大更改。如果需要重大更改尽早的提醒正在审核的同事。\n2. 回应每一条评论。明确反馈，以及是否做出修正，及时沟通\n3. 每次cr是一次讨论，不是一个要求。面对cr评论，欢迎提出不同意见，但要解释清楚为什么\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "9963194b59fe9df6ac894bed25eb8454",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "3333",
+        "path": "/blog/3",
+        "date": "2018-05-02 11:20",
+        "_PARENT": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file",
+        "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review1.md"
+    },
+    "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/blog/1\"\ndate: \"2018-04-23 11:20\"\ntitle: \"1111\"\n---\n### code review 的要求\n\nLv1. 验证代码是否符合当前需求的正确和有效的解决方案\n\nLv2 确保你的代码是可维护的\n\nLv3 增加对代码库的共享知识\n\nLv4 通过定期反馈提高团队的技能\n\nLv5 不应该成为开发的一个沉重开销\n\n\n\n### code review 原则\n\n##### 发布pr之前应该明确\n1. 邀请合适Reviewers\n2. 有一个主要审核人，做出决定\n3. 明确每个Reviewer的审核范围，和主要职责\n\n##### 提出pr需要注意的\n1. 这个pr解决了什么问题，用什么解决，为什么用。尽可能丰富的上下文关系，能够帮助别人更快的审核你的代码\n2. pr越小越好，小的好处是更准确的描述，更少的不必要沟通，以及更快的通过审核，迭代。注意区分代码逻辑和代码风格的修改最好分2个分支提\n3. 提高代码的可读性\n4. 点击确认发布按钮前，认真阅读diff，确认这次pr修改了哪些内容。尝试用第三人来目光来审视自己的diff。如果太混乱难以阅读，首先应该修改代码风格以及抽象和重构。然后再是考虑加上部分注释和上下文\n\n##### 审核过程中\n1. 避免重大更改。如果需要重大更改尽早的提醒正在审核的同事。\n2. 回应每一条评论。明确反馈，以及是否做出修正，及时沟通\n3. 每次cr是一次讨论，不是一个要求。面对cr评论，欢迎提出不同意见，但要解释清楚为什么\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1e621c113292c0d202212a88adbf5c71",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "1111",
+        "path": "/blog/1",
+        "date": "2018-04-23 11:20",
+        "_PARENT": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file",
+        "parent": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/linzhou/Documents/project/gatsby-starter-muses/post/code_review.md"
+    },
     "SitePage /blog/3": {
       "layout": "index",
       "jsonName": "blog-3.json",
@@ -987,7 +995,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "38c866ec8bfa08888372e34e098d8bcf",
+        "contentDigest": "b1432117ed9e536fa60a9adc276431e4",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1008,7 +1016,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f89d8b26fdd889dcb38439b1c183752e",
+        "contentDigest": "2a9e7a3d3a2af5ca763ba3d5364e2134",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1029,7 +1037,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c75df9283ba261a0a661644525035a24",
+        "contentDigest": "751d6b8e6678287df8ba818f8a579f57",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1050,7 +1058,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e498dc86c913bb47bf9d443dabce9ea8",
+        "contentDigest": "1bd68decfe16cf3a634cc27f573daaeb",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1071,7 +1079,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "930db7c1b2a4660b10df4188510c9015",
+        "contentDigest": "edb6729a5d6d6d1a713920641a64bd46",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1092,7 +1100,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "423c2036d50cf20513d732a0787ae3db",
+        "contentDigest": "71aef0b29a274f3758107b763319a4da",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1100,7 +1108,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "34e9bb3f6ceef466ed688a7a50e8c45d"
+    "PLUGINS_HASH": "3935b6621f26de48e9ed1fa2c1fd3013"
   },
   "componentDataDependencies": {
     "nodes": {

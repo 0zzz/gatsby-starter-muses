@@ -1,0 +1,10 @@
+@mixin main-layout {
+  width: $width-main-layout;
+  margin: 0 auto;
+}
+
+@mixin text-with-mark {
+  color: $color-link;
+  font-size: fontSize(16);
+  font-weight: bold;
+}

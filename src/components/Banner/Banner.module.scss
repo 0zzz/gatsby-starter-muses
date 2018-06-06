@@ -1,5 +1,21 @@
+@import '../Header/Header.module.scss';
+
+$banner-height: px2rem(300);
+$contetn-top: px2rem(50);
 
 .banner {
-  height: px2rem(300);
+  padding-top: $header-height;
+  height: $banner-height;
   background-color: $color-bg-white;
+
+  .content {
+    @include main-layout;
+    position: relative;
+    top: $contetn-top;
+
+    margin: 0 auto;
+  }
+}
+:export {
+  padding-height: $banner-height - $contetn-top;
 }

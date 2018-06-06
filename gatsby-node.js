@@ -52,13 +52,21 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
       config.loader(`sass`, {
         test: sassFiles,
         exclude: sassModulesFiles,
-        loaders: [ `css`, sassLoader, sassResourcesLoader],
+        loader: `null`,
       });
 
       config.loader(`sassModules`, {
         test: sassModulesFiles,
-        loader: extractTextPlugin(stage).extract('style', [ cssModulesConfig(stage), sassLoader, sassResourcesLoader]),
+        loader: extractTextPlugin(stage).extract(`style`, [
+          cssModulesConfig(stage),
+          sassLoader,
+          sassResourcesLoader,
+        ]),
       });
+      // config.loader(`sassModules`, {
+      //   test: sassModulesFiles,
+      //   loader: extractTextPlugin(stage).extract('style', [ cssModulesConfig(stage), sassLoader, sassResourcesLoader]),
+      // });
       break;
   }
 

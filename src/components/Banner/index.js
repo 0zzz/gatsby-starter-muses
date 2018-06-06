@@ -1,26 +1,37 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import './Banner.module.scss';
+import styles from './Banner.module.scss';
 
 const propTypes = {};
 
-const defaultProps = {};
+const defaultProps = {
+  contentHeight: `${(450 / 160)}rem`,
+};
 
-class Header extends Component {
+class Banner extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
+    const { contentHeight, children } = this.props;
     return (
-      <div styleName="banner" >
+      <div
+        styleName="banner"
+        style={{
+          marginBottom:`calc(${contentHeight} - ${styles['padding-height']})`
+        }
+      }>
+        <div styleName="content">
+          {children}
+        </div>
       </div>
     );
   }
 }
 
-Header.propTypes = propTypes;
-Header.defaultProps = defaultProps;
+Banner.propTypes = propTypes;
+Banner.defaultProps = defaultProps;
 
-export default Header;
+export default Banner;

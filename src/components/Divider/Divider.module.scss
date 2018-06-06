@@ -1,0 +1,54 @@
+$btn-width: px2rem(170);
+
+.divider {
+  height: px2rem(150);
+  line-height: px2rem(150);
+  text-align: center;
+  color: $color-link;
+
+  .more {
+    position: relative;
+    width: $btn-width;
+    margin: 0 auto;
+    height: px2rem(50);
+    line-height: px2rem(50);
+    cursor: pointer;
+
+    &:after {
+      content: '';
+      position:absolute;
+      top: 50%;
+      left: 120%;
+      width: px2rem(170);
+      height: 1px;
+      background: linear-gradient(to right, $color-link , #fff);
+      transition: all 0.2s ease;
+    }
+    &:before {
+      content: '';
+      position:absolute;
+      top: 50%;
+      right: 120%;
+      width: px2rem(170);
+      height: 1px;
+      background: linear-gradient(to left, $color-link , #fff);
+      transition: all 0.2s ease;
+    }
+
+    &:hover {
+      &:after {
+        top: -20%;
+        left: 0;
+        width: $btn-width;
+        background: $color-link;
+      }
+
+      &:before  {
+        top: 120%;
+        right: 0;
+        width: $btn-width;
+        background: $color-link;
+      }
+    }
+  }
+}
